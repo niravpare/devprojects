@@ -12,7 +12,7 @@ Tools used in this project.
 --> First place your code in index.hml file.
 --> Create Docker repo for pushing and pulling Docker image.
 --> Configure wrecker.yml file which includes automation configuration script. ( you can include if you want to deploy on specific port )
---> Add your files to Git repo
+--> Add your files to Git repo.
 --> Create CICD pipeline in Wrecker.
 --> Create EC2 instance in AWS console.
 --> Configure Security Group.
@@ -26,7 +26,8 @@ Some Additional Add-ons:
 --> Add ElasticIp to your Instance for Static Ip. 
 --> And Configure Route53 A record for redirection.
 --> You can add SSL with different method here I used Amazon signed certificate from Amazon Certificate Manager.
---> And I used ELB ( Elastic Load Balancer) which will allow you to add Amazon SSL to place in middle as well it will provide you Health check of Instance.
+--> And I used ELB ( Elastic Load Balancer) which will allow you to add Amazon SSL to place in middle as well it will
+provide you Health check of Instance.
 --> You can add Alias in Route53 to add ELB in middle of redirection.
 --> You can also add SSL in your root conf directory.
 --> You Can redirect your HTTP traffic to HTTPS by adding some few config content.
